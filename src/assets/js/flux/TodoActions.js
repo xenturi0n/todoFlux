@@ -34,6 +34,7 @@ export function deleteTodo(id){
 
 export function reloadTodos() {
     console.log ("ACTION ejecutanto reloadTodos()");
+    
     dispatcher.dispatch({
         type: "RELOADING_TODOS",
         loading: true

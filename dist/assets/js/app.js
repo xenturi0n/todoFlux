@@ -20562,6 +20562,7 @@ function deleteTodo(id) {
 
 function reloadTodos() {
     console.log("ACTION ejecutanto reloadTodos()");
+
     _dispatcher2.default.dispatch({
         type: "RELOADING_TODOS",
         loading: true
